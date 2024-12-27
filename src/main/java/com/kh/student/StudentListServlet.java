@@ -33,7 +33,7 @@ public class StudentListServlet extends HttpServlet{
 		request.setAttribute("sList", sList);
 
 		
-		// 이거는 지금 한명만 출력 가능함
+		// 이거는 지금 한명만 출력 가능함 수정해야함
 //		request.setAttribute("name", sList.get(0).getName());
 //		request.setAttribute("firstScore", sList.get(0).getFirstScore());
 //		request.setAttribute("secondScore", sList.get(0).getSecondScore());
