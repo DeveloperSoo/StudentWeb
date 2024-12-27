@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class StudentInsertServlet extends HttpServlet{
 
 	@Override
-	protected void service(HttpServletRequest request
+	protected void doPost(HttpServletRequest request
 			, HttpServletResponse response) throws ServletException, IOException {
 	
 		List<Student> sList = new ArrayList<Student>();

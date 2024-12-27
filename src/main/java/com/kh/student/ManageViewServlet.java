@@ -17,7 +17,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class ManageViewServlet extends HttpServlet{
 	
 	@Override
-	protected void service(HttpServletRequest request
+	protected void doGet(HttpServletRequest request
 			, HttpServletResponse response) throws ServletException, IOException {
 		RequestDispatcher view;
 		view = request.getRequestDispatcher("/WEB-INF/views/student/manage.jsp");

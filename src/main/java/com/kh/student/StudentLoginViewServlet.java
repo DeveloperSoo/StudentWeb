@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class StudentLoginViewServlet extends HttpServlet{
 
 	@Override
-	protected void service(HttpServletRequest request
+	protected void doGet(HttpServletRequest request
 			, HttpServletResponse response) throws ServletException, IOException {
 		
 		RequestDispatcher view;
